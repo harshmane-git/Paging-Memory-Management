@@ -1,0 +1,571 @@
+Memory Initialized
+===== Reading Job File =====
+
+Read: $AMJ000100030001
+Read: GD10PD10H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD10]
+SecMem[ 1]: [PD10]
+SecMem[ 2]: [H...]
+
+Read: Hello World
+Read: $END0001
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000200170005
+Read: GD30LR30SR42SR51SR52SR53SR60SR61SR62SR63SR64PD40PD50PD60PD50PD40H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD30]
+SecMem[ 1]: [LR30]
+SecMem[ 2]: [SR42]
+SecMem[ 3]: [SR51]
+SecMem[ 4]: [SR52]
+SecMem[ 5]: [SR53]
+SecMem[ 6]: [SR60]
+SecMem[ 7]: [SR61]
+SecMem[ 8]: [SR62]
+SecMem[ 9]: [SR63]
+SecMem[10]: [SR64]
+SecMem[11]: [PD40]
+SecMem[12]: [PD50]
+SecMem[13]: [PD60]
+SecMem[14]: [PD50]
+SecMem[15]: [PD40]
+SecMem[16]: [H...]
+
+Read: *
+Read: $END0002
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000300130003
+Read: GD20GD30GD40GD50PD20PD30LR20CR30BT11PD50HPD40H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD20]
+SecMem[ 1]: [GD30]
+SecMem[ 2]: [GD40]
+SecMem[ 3]: [GD50]
+SecMem[ 4]: [PD20]
+SecMem[ 5]: [PD30]
+SecMem[ 6]: [LR20]
+SecMem[ 7]: [CR30]
+SecMem[ 8]: [BT11]
+SecMem[ 9]: [PD50]
+SecMem[10]: [H...]
+SecMem[11]: [PD40]
+SecMem[12]: [H...]
+
+Read: VIT
+Read: VIIT
+Read: IS SAME
+Read: NOT SAME
+Read: $END0003
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+Data[2]: "VIT"
+Data[3]: "VIIT"
+Data[4]: "IS SAME"
+Data[5]: "NOT SAME"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000400110001
+Read: GD20GD30GD40GD50LR20CR30BT09PD50HPD40H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD20]
+SecMem[ 1]: [GD30]
+SecMem[ 2]: [GD40]
+SecMem[ 3]: [GD50]
+SecMem[ 4]: [LR20]
+SecMem[ 5]: [CR30]
+SecMem[ 6]: [BT09]
+SecMem[ 7]: [PD50]
+SecMem[ 8]: [H...]
+SecMem[ 9]: [PD40]
+SecMem[10]: [H...]
+
+Read: 10
+Read: 10
+Read: S*A*M*E
+Read: D*I*F*F*E*R*E*N*T
+Read: $END0004
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+Data[2]: "VIT"
+Data[3]: "VIIT"
+Data[4]: "IS SAME"
+Data[5]: "NOT SAME"
+Data[6]: "10"
+Data[7]: "10"
+Data[8]: "S*A*M*E"
+Data[9]: "D*I*F*F*E*R*E*N*T"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000500170005
+Read: GD30LR30SR31SR32SR33SR34SR40
+Read: SR50SR51SR52PD30PD40PD50PD40PD30H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD30]
+SecMem[ 1]: [LR30]
+SecMem[ 2]: [SR31]
+SecMem[ 3]: [SR32]
+SecMem[ 4]: [SR33]
+SecMem[ 5]: [SR34]
+SecMem[ 6]: [SR40]
+SecMem[ 7]: [SR50]
+SecMem[ 8]: [SR51]
+SecMem[ 9]: [SR52]
+SecMem[10]: [PD30]
+SecMem[11]: [PD40]
+SecMem[12]: [PD50]
+SecMem[13]: [PD40]
+SecMem[14]: [PD30]
+SecMem[15]: [H...]
+
+Read: *
+Read: $END0005
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+Data[2]: "VIT"
+Data[3]: "VIIT"
+Data[4]: "IS SAME"
+Data[5]: "NOT SAME"
+Data[6]: "10"
+Data[7]: "10"
+Data[8]: "S*A*M*E"
+Data[9]: "D*I*F*F*E*R*E*N*T"
+Data[10]: "*"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000600360013
+Read: GD90LR90SR43SR52SR53SR54SR61SR62SR63SR64SR65
+Read: SR70SR71SR72SR73SR74SR75SR76
+Read: PD40PD50PD60PD40PD50PD60PD70GD90LR90SR83PD80PD80PD80
+Read: GD90LR90SR82SR83SR84PD80PD80PD80H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD90]
+SecMem[ 1]: [LR90]
+SecMem[ 2]: [SR43]
+SecMem[ 3]: [SR52]
+SecMem[ 4]: [SR53]
+SecMem[ 5]: [SR54]
+SecMem[ 6]: [SR61]
+SecMem[ 7]: [SR62]
+SecMem[ 8]: [SR63]
+SecMem[ 9]: [SR64]
+SecMem[10]: [SR65]
+SecMem[11]: [SR70]
+SecMem[12]: [SR71]
+SecMem[13]: [SR72]
+SecMem[14]: [SR73]
+SecMem[15]: [SR74]
+SecMem[16]: [SR75]
+SecMem[17]: [SR76]
+SecMem[18]: [PD40]
+SecMem[19]: [PD50]
+SecMem[20]: [PD60]
+SecMem[21]: [PD40]
+SecMem[22]: [PD50]
+SecMem[23]: [PD60]
+SecMem[24]: [PD70]
+SecMem[25]: [GD90]
+SecMem[26]: [LR90]
+SecMem[27]: [SR83]
+SecMem[28]: [PD80]
+SecMem[29]: [PD80]
+SecMem[30]: [PD80]
+SecMem[31]: [GD90]
+SecMem[32]: [LR90]
+SecMem[33]: [SR82]
+SecMem[34]: [SR83]
+SecMem[35]: [SR84]
+SecMem[36]: [PD80]
+SecMem[37]: [PD80]
+SecMem[38]: [PD80]
+SecMem[39]: [H...]
+
+Read: *
+Read: |
+Read: #
+Read: $END0006
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+Data[2]: "VIT"
+Data[3]: "VIIT"
+Data[4]: "IS SAME"
+Data[5]: "NOT SAME"
+Data[6]: "10"
+Data[7]: "10"
+Data[8]: "S*A*M*E"
+Data[9]: "D*I*F*F*E*R*E*N*T"
+Data[10]: "*"
+Data[11]: "*"
+Data[12]: "|"
+Data[13]: "#"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
+Read: $AMJ000700430005
+Read: GD30LR30SR40SR42SR43SR44SR50SR52SR60SR61SR62SR63
+Read: SR64SR72SR74SR80SR81SR82SR84PD40PD50PD60PD70PD80H
+Read: $DTA
+
+--- Program Loaded ---
+
+--- Secondary Memory ---
+SecMem[ 0]: [GD30]
+SecMem[ 1]: [LR30]
+SecMem[ 2]: [SR40]
+SecMem[ 3]: [SR42]
+SecMem[ 4]: [SR43]
+SecMem[ 5]: [SR44]
+SecMem[ 6]: [SR50]
+SecMem[ 7]: [SR52]
+SecMem[ 8]: [SR60]
+SecMem[ 9]: [SR61]
+SecMem[10]: [SR62]
+SecMem[11]: [SR63]
+SecMem[12]: [SR64]
+SecMem[13]: [SR72]
+SecMem[14]: [SR74]
+SecMem[15]: [SR80]
+SecMem[16]: [SR81]
+SecMem[17]: [SR82]
+SecMem[18]: [SR84]
+SecMem[19]: [PD40]
+SecMem[20]: [PD50]
+SecMem[21]: [PD60]
+SecMem[22]: [PD70]
+SecMem[23]: [PD80]
+SecMem[24]: [H...]
+
+Read: #
+Read: $END0007
+
+--- Execution Summary ---
+
+--- Data Buffer ---
+Data[0]: "Hello World"
+Data[1]: "*"
+Data[2]: "VIT"
+Data[3]: "VIIT"
+Data[4]: "IS SAME"
+Data[5]: "NOT SAME"
+Data[6]: "10"
+Data[7]: "10"
+Data[8]: "S*A*M*E"
+Data[9]: "D*I*F*F*E*R*E*N*T"
+Data[10]: "*"
+Data[11]: "*"
+Data[12]: "|"
+Data[13]: "#"
+Data[14]: "#"
+
+
+--- PAGE TABLE ---
+Page  0 -> Not Loaded
+Page  1 -> Not Loaded
+Page  2 -> Not Loaded
+Page  3 -> Not Loaded
+Page  4 -> Not Loaded
+Page  5 -> Not Loaded
+Page  6 -> Not Loaded
+Page  7 -> Not Loaded
+Page  8 -> Not Loaded
+Page  9 -> Not Loaded
+Page 10 -> Not Loaded
+Page 11 -> Not Loaded
+Page 12 -> Not Loaded
+Page 13 -> Not Loaded
+Page 14 -> Not Loaded
+Page 15 -> Not Loaded
+Page 16 -> Not Loaded
+Page 17 -> Not Loaded
+Page 18 -> Not Loaded
+Page 19 -> Not Loaded
+
+
+--- Main Memory ---
+Frame[ 0]: [....]
+Frame[ 1]: [....]
+Frame[ 2]: [....]
+Frame[ 3]: [....]
+Frame[ 4]: [....]
+Frame[ 5]: [....]
+Frame[ 6]: [....]
+Frame[ 7]: [....]
+Frame[ 8]: [....]
+Frame[ 9]: [....]
+
+Job Finished
+
