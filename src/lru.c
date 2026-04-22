@@ -1,42 +1,49 @@
-#include "paging.h"
-#include <stdio.h>
+#include <string.h>
+#include "memory.h"
+#include "address.h"
+#include "stats.h"
+#include "lru.h"
 
-void handlePageFault(int virtualPage) {
-    int targetFrame = -1;
+// ── PAGE FAULT HANDLER (LRU replacement) ─────────────────
 
-    // Find free frame
-    for (int i = mainMemPointer; i < MAIN_MEM_FRAMES; i++) {
-        if (frameOwnerPage[i] == -1) {
-            targetFrame = i;
+void handlePageFault(int vp) {
+
+    int frame = -1;
+
+    // search for a free data frame
+    for (int i = DATA_FRAME_START; i < MAIN_MEM_FRAMES; i++) {
+        if (frameLastUsed[i] == 0) {
+            frame = i;
             break;
         }
     }
 
-    // LRU replacement
-    if (targetFrame == -1) {
-        int lruTime = timeCounter + 1;
+    // no free frame — evict LRU frame
+    if (frame == -1) {
+        int min = frameLastUsed[DATA_FRAME_START];
+        frame   = DATA_FRAME_START;
 
-        for (int i = mainMemPointer; i < MAIN_MEM_FRAMES; i++) {
-            if (frameLastUsed[i] < lruTime) {
-                lruTime = frameLastUsed[i];
-                targetFrame = i;
+        for (int i = DATA_FRAME_START + 1; i < MAIN_MEM_FRAMES; i++) {
+            if (frameLastUsed[i] < min) {
+                min   = frameLastUsed[i];
+                frame = i;
             }
         }
 
-        int evictedPage = frameOwnerPage[targetFrame];
-        pageTable[evictedPage] = -1;
-
-        printf("LRU Evicted Page %d\n", evictedPage);
+        // invalidate the evicted page in the page table
+        for (int i = 0; i < TOTAL_PAGES; i++) {
+            if (getPTE(i) == frame) {
+                setPTE(i, INVALID_PAGE);
+                currentStats.lruEvictions++;
+                frameSource[frame] = UNSET;
+                break;
+            }
+        }
     }
 
-    int secFrame = currentSecStart + virtualPage;
+    // allocate a clean frame for the new page
+    memset(mainMemory[frame], '\0', FRAME_SIZE);
 
-    for (int i = 0; i < FRAME_SIZE; i++)
-        mainMemory[targetFrame][i] = secMemory[secFrame][i];
-
-    pageTable[virtualPage] = targetFrame;
-    frameOwnerPage[targetFrame] = virtualPage;
-    frameLastUsed[targetFrame] = ++timeCounter;
-
-    printf("Loaded Page %d into Frame %d\n", virtualPage, targetFrame);
+    setPTE(vp, frame);
+    frameLastUsed[frame] = ++timeCounter;
 }
